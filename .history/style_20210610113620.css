@@ -1,0 +1,12 @@
+body {
+    background-color: whitesmoke;
+}
+
+h1{
+    text-transform: uppercase;
+    color: blue;
+}
+.greet {
+    text-align: right;
+    color: teal;
+}

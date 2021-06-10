@@ -1,0 +1,23 @@
+body {
+    background-color: whitesmoke;
+}
+
+h1{
+    text-transform: uppercase;
+    color: blue;
+}
+.greet {
+    text-align: right;
+    color: teal;
+}
+.card {
+    width: 400px;
+    height: 350px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: gainsboro;
+    border: 1px solid gainsboro;
+}
+.cardTitle
+.cardBody
+.cardFooter

@@ -28,21 +28,8 @@ h1{
 .cardTitle {
     text-align: center;
     text-transform: uppercase;
-    padding-top: 50px;
+    padding-top: 10px;
     padding-bottom: 10px;
-    font-weight: bold;
 }
-.cardBody {
-    padding-left: 20px;
-    line-height: 2em;
-}
-.cardFooter {
-    padding-left: 20px;
-    padding-top: 20px;
-    text-align: center;
-    font-weight: 700;
-}
-.cardFooter:hover {
-    text-decoration: underline;
-    cursor: pointer;
-}
+.cardBody
+.cardFooter

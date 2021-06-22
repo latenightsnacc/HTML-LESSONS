@@ -1,0 +1,26 @@
+.grid {
+    display: grid;
+    grid-template-areas: 
+    'header header header header header header'
+    'main-text main-text main-text main-img main-img main-img'
+    'footer footer footer footer footer footer ';
+    width: 100%;
+    height: 100vh;
+}
+
+#header {
+    grid-area: header;
+    background-color: blue;
+}
+
+#left  {
+    grid-area: main-text;
+}
+
+#right {
+    grid-area: main-img;
+}
+
+#footer {
+    grid-area: footer;
+}

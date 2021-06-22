@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+    overflow-x: hidden;
+}
+.grid {
+    display: grid;
+    grid-template-areas: 
+    'header header header header header header'
+    'left left left right right right';
+    height: 100vh;
+}
+.header {
+    grid-area: header;
+    /* background-color: darkcyan; */
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.left {
+    grid-area: left;
+    background-color: burlywood;
+    height: 90vh;
+}
+.right {
+    grid-area: right;
+    background-color: darkblue;
+}
+a.logo  {
+    display: block;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: darkslategray;
+}
+a.logo:hover {
+    text-decoration: none;
+}
+a.logo::after {
+    content: '---------------------------------------------------------------------------------';
+} 
+.menu {
+    display: flex;
+    list-style: none;
+}
+.menu > li {
+    margin-left: 15px;
+}
+
+.menu > li > a {
+    text-decoration: none;
+    color: #78A;
+    text-transform: capitalize;
+}

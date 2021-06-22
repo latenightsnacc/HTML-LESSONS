@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+    overflow-x: hidden;
+}
+.grid {
+    display: grid;
+    grid-template-areas: 
+    'header header header header header header'
+    'left left left right right right'
+    'footer footer footer footer footer footer '; 
+    width: 100%;
+    height: 100vh;
+}
+
+#header {
+    grid-area: header;
+}
+.left {
+    grid-area: left;
+}
+.right {
+    grid-area: right;
+}
+
+

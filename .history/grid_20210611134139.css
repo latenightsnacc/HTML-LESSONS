@@ -1,0 +1,34 @@
+.grid {
+    display: grid;
+    grid-template-areas: 
+    'header header header header header header'
+    'leftMenu main main main main rightMenu'
+    'footer footer footer footer footer footer';
+    background-color: darkseagreen;
+    min-height: 100vh;
+}
+
+.header {
+    grid-area: header;
+    background-color: darkslateblue;
+    text-align: center;
+    height: 10vh;
+}
+
+.leftMenu {
+    grid-area: leftMenu;
+    background-color: darkturquoise;
+}
+.main {
+    grid-area: main;
+    background-color: deeppink;
+    height: 80vh;
+}
+.rightMenu {
+    grid-area: rightMenu;
+}
+
+.footer {
+    background-color: firebrick;
+    grid-area: footer;
+}

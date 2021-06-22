@@ -1,0 +1,28 @@
+body {
+    display: grid;
+
+    grid-template-areas: 
+    'header header header header header header',
+    'aside section section section section article',
+    'footer footer footer footer footer footer';
+}
+
+header {
+    grid-area: 'header';
+    background-color: crimson;
+}
+main > aside {
+    grid-area: 'aside';
+}
+
+main > section {
+    grid-area: 'section';
+}
+
+main > article {
+    grid-area: 'article';
+}
+
+footer {
+    grid-area: 'footer';
+}

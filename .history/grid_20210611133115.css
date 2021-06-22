@@ -1,0 +1,33 @@
+body {
+    display: grid;
+    width: 100%;
+    min-height: 100vh;
+    grid-template-areas: 
+    'header header header header header header',
+    'aside section section section section article',
+    'footer footer footer footer footer footer';
+}
+
+header {
+    grid-area: header;
+    background-color: crimson;
+}
+ aside {
+    grid-area: aside;
+    background-color: cyan;
+}
+
+ section {
+    grid-area: section;
+    background-color: darkgoldenrod;
+}
+
+main > article {
+    grid-area: article;
+    background-color: darkgreen;
+}
+
+footer {
+    grid-area: footer;
+    background-color: darkmagenta;
+}

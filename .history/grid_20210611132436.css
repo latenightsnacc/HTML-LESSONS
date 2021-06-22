@@ -1,0 +1,11 @@
+body {
+    display: grid;
+
+    grid-template-areas: 
+    'header header header header header header',
+    'aside main main main main ';
+}
+
+header {
+    grid-area: 'header';
+}

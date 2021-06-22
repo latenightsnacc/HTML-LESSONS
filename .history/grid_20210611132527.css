@@ -1,0 +1,12 @@
+body {
+    display: grid;
+
+    grid-template-areas: 
+    'header header header header header header',
+    'aside section section section section article',
+    'footer footer footer footer footer footer';
+}
+
+header {
+    grid-area: 'header';
+}

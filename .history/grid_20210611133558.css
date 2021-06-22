@@ -1,0 +1,10 @@
+.grid {
+    display: grid;
+    grid-template-areas: 
+    'header header header header header header',
+    'leftMenu main main main main rightMenu',
+    'footer footer footer footer footer footer';
+    background-color: darkseagreen;
+    height: 100vh;
+    padding: 0px;
+}

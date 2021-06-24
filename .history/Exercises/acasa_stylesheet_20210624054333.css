@@ -46,10 +46,6 @@ a.logo:hover {
 .left {
     grid-area: left;  
 }
-.text {
-    display: flex;
-    flex-direction: column;
-}
 .right {
     grid-area: right;
     position: relative;  
@@ -62,18 +58,14 @@ a.logo:hover {
 .glass {
     position: absolute;
     right: 0px;
-    top: 0px;
-    bottom: 0px;
     height: 100%;
     width: 100px;
     background: red;
-    border-radius: .2rem;
-    
-}
-.shadow {
-    --tw-shadow: 0 25px 50px -12px rgba(133, 131, 131, 0.25);
+    border-radius: .3rem;
+    --tw-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
     box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow);
 }
+
 .rounded-2xl {
 }
 

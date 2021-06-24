@@ -47,8 +47,8 @@ a.logo:hover {
     grid-area: left;  
 }
 .text {
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-rows: repeat(6, minmax(1fr));
 }
 .right {
     grid-area: right;

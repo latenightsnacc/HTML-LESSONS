@@ -21,6 +21,21 @@ body {
     justify-content: space-between;
     padding: 10px 15px;
 }
+.left {
+    grid-area: left;  
+}
+.right {
+    grid-area: right;  
+}
+.image {
+    background-image: url(bedroom-image.jpg);
+    float: right;
+    background-position: left;  
+}
+.image > a > img {
+    float: right !important;
+    
+}
 a.logo  {
     text-decoration: none;
     text-transform: capitalize;
@@ -29,13 +44,13 @@ a.logo  {
 a.logo:hover {
     text-decoration: none;
 }
- 
+
 .menu {
     display: flex;
     list-style: none;
 }
 .menu > li {
-    margin-left: 20px;
+    margin-left: 15px;
 }
 
 .menu > li > a {
@@ -43,40 +58,6 @@ a.logo:hover {
     color: #78A;
     text-transform: capitalize;
 }
-.left {
-    grid-area: left;  
-}
-.text {
-    display: flex;
-    flex-direction: column;
-}
-.right {
-    grid-area: right;
-    position: relative;  
-}
-.image {
-    background-image: url(bedroom-image.jpg);
-    float: right;
-    background-position: left;  
-}
-.glass {
-    position: absolute;
-    right: 0px;
-    top: 0px;
-    bottom: 0px;
-    height: 100%;
-    width: 100px;
-    background: red;
-    border-radius: .2rem;
-    
-}
-.shadow {
-    --tw-shadow: 0 25px 50px -12px rgba(133, 131, 131, 0.25);
-    box-shadow: var(--tw-ring-offset-shadow,0 0 #0000),var(--tw-ring-shadow,0 0 #0000),var(--tw-shadow);
-}
-.rounded-2xl {
-}
-
 .container {
     padding-right: 15px;
     padding-left: 15px;

@@ -46,10 +46,6 @@ a.logo:hover {
 .left {
     grid-area: left;  
 }
-.text {
-    display: flex;
-    flex-direction: column;
-}
 .right {
     grid-area: right;
     position: relative;  

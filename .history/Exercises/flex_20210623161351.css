@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;900&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+    overflow-x: hidden;
+}
+
+.flex {
+    display: flex;
+    width: 100%;
+}
+.flex > .logo {
+    flex: 20%;
+}
+.flex  > .nav {
+    flex: 80%;
+}
+.flex > .left, .flex >.right {
+    flex: 50%;
+}
+.flex > .menu {
+    width: 50%;
+    justify-content: end;
+    
+}
+.flex > .menu .site {
+    background-color: #0c0;
+    width: 100%;
+}
+.menu {
+    list-style: none;
+    
+}
+
+.menu > li {
+    margin: 10px;
+}
+
+.menu > li > a {
+    text-decoration: none;
+    color: #78A;
+    text-transform: capitalize;
+}

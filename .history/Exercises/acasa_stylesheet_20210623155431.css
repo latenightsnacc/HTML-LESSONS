@@ -28,10 +28,9 @@ body {
 .right {
     grid-area: right;
     background-color: darkblue;
-    
 }
 .right > img {
-    padding-left: 50%;
+    float: right;
 }
 a.logo  {
     text-decoration: none;

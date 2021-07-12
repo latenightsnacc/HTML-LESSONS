@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* Display Flex */
+.navBar, .pageLayout, .capsulesContainer {
+    display: flex;
+    width: 100%;
+}
+
+/* Navigation Bar */
+.navBar {
+    justify-content: space-between;
+}
+
+/* Page Layout */
+.pageLayout > .leftSide, .pageLayout .rightSide  {
+    flex: 50%;
+}
+
+.leftSide {
+
+}
+
+/* Image  */
+.img {
+    width: 100%;
+}

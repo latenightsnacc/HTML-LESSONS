@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* Display Flex */
+.navBar, .pageLayout, .capsulesContainer, .leftSide {
+    display: flex;
+    width: 100%;
+    height: 100%;
+}
+
+/* Navigation Bar */
+.navBar {
+    justify-content: space-between;
+}
+
+/* Page Layout */
+.pageLayout > .leftSide, .pageLayout .rightSide  {
+    align-items: center !important;
+    flex: 50%;
+}
+
+.leftSide {
+    background-color: blue;
+}
+
+/* Image  */
+.img {
+    width: 100%;
+}

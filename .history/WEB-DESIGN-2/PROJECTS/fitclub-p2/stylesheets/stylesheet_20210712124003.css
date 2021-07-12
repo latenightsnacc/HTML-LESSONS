@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* Display Flex */
+.navBar, .pageLayout, .capsulesContainer, .leftSide {
+    display: flex;
+    width: 100%;
+}
+
+/* Navigation Bar */
+.navBar {
+    justify-content: space-between;
+}
+
+/* Page Layout */
+.pageLayout > .leftSide, .pageLayout .rightSide  {
+   
+    flex: 50%;
+}
+
+/* Text Content */
+.leftSide {
+    flex-direction: column;
+    background-color: blue;
+    justify-content: space-around;
+}
+
+.capsulesContainer {
+    justify-content: space-evenly;
+}
+/* Image  */
+.img {
+    width: 100%;
+}
+.rightSide {
+    background-color: burlywood;
+}
+.container {
+    
+    margin: 10px; 
+    padding: 15px;
+}

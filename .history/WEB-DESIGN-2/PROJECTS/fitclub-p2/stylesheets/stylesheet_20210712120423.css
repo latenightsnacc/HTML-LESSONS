@@ -1,0 +1,9 @@
+body {
+    overflow-x: ;
+}
+
+.navBar, .pageLayout, .capsulesContainer {
+    display: flex;
+}
+
+

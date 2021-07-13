@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
 
-/* All elements */
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +11,7 @@ body, .navBar, .pageLayout, .capsulesContainer, .leftSide {
     display: flex;
     width: 100%;
 }
-/* Body */
+
 body {
     flex-direction: column; 
     overflow-x: hidden;
@@ -28,6 +27,7 @@ body {
     background-color: white;
     padding: 25px 0px;
     margin:auto;
+    border-;
     border-radius: 80px;
 }
 
@@ -46,7 +46,7 @@ body {
     flex-direction: column;
     justify-content: space-around;
 }
-/* Capsule Container */
+
 .capsulesContainer {
     justify-content: start;
 }
@@ -59,11 +59,9 @@ body {
 .container {
     padding: 15px 30px;
 }
-/* anchor tag  */
-a{
+a {
     text-decoration: none;
 }
-/* Logo */
 .logo {
     font-weight: 700;
     color: black;
@@ -72,44 +70,17 @@ a{
     text-transform: capitalize;
    
 }
-/* Large Text  */
 .lgText {
-    font-size: 54px;
-    text-transform: capitalize;
+    font-size: 45px;
 }
-
-/* Light Font */
 .font-light {
     font-weight: 300;
-
 }
 
-/* Paragraph text */
 .pText {
     width: 80%;
     color: gray;
     line-height: 1.5rem;
     font-size: 14px;
-    margin: 20px 0px;
-}
-
-/* Buttons */
-.btn {
-    
-    background-color: rgba(218,60,47,0.7);
-    outline: none;
-    padding: 10px 24px;
-    color: white;
-    font-weight: 400;
-    border-style: none;
-    border-radius: 16px;
-    font-size: 14px;
-    text-transform: capitalize;
-}
-
-/* Call To Action */
-.cta-btn {
-    border-top-left-radius:0px;
-    padding: 16px 32px;
-    font-weight: 700;
+    margin: 15px 0px;
 }

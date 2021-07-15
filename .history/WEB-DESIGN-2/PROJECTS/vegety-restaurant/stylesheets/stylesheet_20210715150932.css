@@ -1,0 +1,32 @@
+
+
+.container {
+    margin: auto;
+}
+
+/* Display Flex */
+.nav-flex, .nav-menu, .icon-menu, .menu-icon, .row {
+    display: flex;
+}
+
+/* Navigation Bar */
+.nav-flex {
+    justify-content: space-between;
+}
+
+/* Icon Menu */
+.icon-menu {
+    list-style: none;
+}
+.menu-icon {
+    flex-direction: column;
+}
+.menu-icon  .longBar {
+    width: 30px;
+    border: 2px solid red;
+}
+.menu-icon  .shortBar {
+    width: 15px;
+    border: 2px solid rgb(146, 137, 137);
+    margin: 3px 0px;
+}

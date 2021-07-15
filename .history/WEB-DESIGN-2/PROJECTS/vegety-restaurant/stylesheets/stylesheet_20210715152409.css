@@ -1,0 +1,60 @@
+
+:root {
+    --btn-bg-color: #0f0f08;
+    --page-bg-color: #f7faf8;
+    --primary-color: #58917c;
+    --grey: #ababab;
+    --white: #fff;
+}
+.container {
+    padding: 15px 5%;
+    margin: auto;
+}
+
+/* Display Flex */
+.nav-flex, .nav-menu, .icon-menu, .menu-icon, .row {
+    display: flex;
+}
+
+/* Navigation Bar */
+.nav-flex {
+    justify-content: space-between;
+}
+
+/* Icon Menu */
+.icon-menu {
+    list-style: none;
+}
+
+/* Menu Icon */
+.menu-icon {
+    flex-direction: column;
+    align-items: flex-end;
+}
+.menu-icon  .longBar, .menu-icon  .shortBar {
+    border: 1px solid black;
+}
+.menu-icon  .longBar {
+    width: 21px;
+    
+}
+.menu-icon  .shortBar {
+    width: 14px;
+    margin: 5px 0px;
+}
+
+/* Rows and Columns */
+.col {
+    flex: 1;
+}
+
+/* Buttons  */
+.btn {
+    padding: 10px 20px;
+    background-color: var(--btn-bg-color);
+    color: var(--white);
+    text-transform: capitalize;
+    border: none;
+    border-radius: 20px;
+
+}

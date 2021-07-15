@@ -1,0 +1,15 @@
+
+
+.container {
+    margin: auto;
+}
+
+/* Display Flex */
+.nav-flex, .row {
+    display: flex;
+}
+
+/* Navigation Bar */
+.nav-flex {
+    justify-content: space-between;
+}

@@ -1,0 +1,10 @@
+
+
+.container {
+    margin: auto;
+}
+
+/* Navigation Bar */
+.nav-flex, .row {
+    display: flex;
+}

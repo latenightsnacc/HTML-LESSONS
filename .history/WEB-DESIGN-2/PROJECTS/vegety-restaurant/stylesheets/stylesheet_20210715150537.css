@@ -1,0 +1,20 @@
+
+
+.container {
+    margin: auto;
+}
+
+/* Display Flex */
+.nav-flex, .nav-menu, .icon-menu, .row {
+    display: flex;
+}
+
+/* Navigation Bar */
+.nav-flex {
+    justify-content: space-between;
+}
+
+/* Icon Menu */
+.icon-menu {
+    list-style: none;
+}

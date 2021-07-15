@@ -1,0 +1,24 @@
+
+
+.container {
+    margin: auto;
+}
+
+/* Display Flex */
+.nav-flex, .nav-menu, .icon-menu, .row {
+    display: flex;
+}
+
+/* Navigation Bar */
+.nav-flex {
+    justify-content: space-between;
+}
+
+/* Icon Menu */
+.icon-menu {
+    list-style: none;
+}
+.menu-icon  .longBar {
+    width: 30px;
+    border: 2px solid red;
+}

@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+}
+.container {
+    width: 90%;
+    margin: auto;
+}
+.nav, .logo, .menu, .social-icons {
+    display: flex;
+    width: 100%;
+}
+.logo, .menu , .social-icons {
+    flex: 1;
+}
+.nav {
+    background-color: chocolate;
+    justify-content: space-between;
+}
+.menu {
+    background-color: gold;
+}
+.social-icons {
+    background-color: crimson;
+    justify-content: flex-end;
+}
+.logo {
+    color: chartreuse;
+}

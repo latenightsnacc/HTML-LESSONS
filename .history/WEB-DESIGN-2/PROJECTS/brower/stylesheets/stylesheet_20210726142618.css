@@ -1,0 +1,11 @@
+* {
+    margin: 0;
+    list-style: none;
+}
+.nav, .menu, .social-icons {
+    display: flex;
+}
+
+.logo {
+    color: chartreuse;
+}

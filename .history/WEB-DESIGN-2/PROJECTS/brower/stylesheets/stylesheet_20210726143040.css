@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+}
+.container {
+    width: 80%;
+}
+.nav, .menu, .social-icons {
+    display: flex;
+    width: 100%;
+}
+.nav {
+    background-color: chocolate;
+}
+.menu {
+    background-color: blue;
+}
+.social-icons {
+    background-color: crimson;
+}
+.logo {
+    color: chartreuse;
+}

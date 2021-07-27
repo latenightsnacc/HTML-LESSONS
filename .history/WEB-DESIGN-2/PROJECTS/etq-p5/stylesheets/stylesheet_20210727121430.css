@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.flex, .main-nav, .acct-menu {
+    display: flex;
+    width: 100%;
+}
+
+.main-nav {
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+}
+.logo {
+    margin-right: 10px;
+}
+.nav-link{
+    margin: 0px 20px;
+    color: black;
+}
+.acct-menu {
+    justify-content: flex-end;
+}

@@ -1,0 +1,112 @@
+* {
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    font-family: 'Lexend', sans-serif;
+
+}
+body {
+    overflow-x: hidden;
+}
+
+.container {
+    width: 95%;
+    margin:auto;
+}
+
+.spacer {
+    margin: 70px 0px;
+}
+.header-bg {
+    background: transparent;
+    /* border: 1px solid gainsboro; */
+    width: 100%;
+    position: fixed;
+}
+
+.flex, .main-nav, .acct-menu, .badge, .banner, .row, .blogPost {
+    display: flex;
+    width: 100%;
+    align-items: center;
+}
+
+.main-nav {
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+}
+.logo {
+    margin-right: 10px;
+    font-family: 'Zen Tokyo Zoo', cursive;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 32px;
+    letter-spacing: 0.3em;
+    color: black;
+}
+.left-menu .logo, .left-menu .nav-link{
+    color: white;
+}
+.nav-link{
+    margin: 0px 20px;
+    color: black;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+.badge {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    border-radius: 50%;
+    font-size: 12px;
+    justify-content: center;
+}
+.acct-menu {
+    justify-content: flex-end;
+}
+.col-70 {
+    flex: 70%;
+}
+.col-30 {
+    flex: 30%;
+}
+img {
+    width: 100%;
+}
+.bannerText {
+    margin-left: 50px;
+}
+.col {
+    flex: 1;
+}
+.blogPost{
+    justify-content: space-between;
+}
+
+.blogImg, .blogText {
+    flex: 50%;
+}
+.blogImg img {
+    width: 80%;
+}
+.blogText {
+    margin-left: 15px;
+}
+.blogTitle {
+    font-size: 16px;
+    text-transform: capitalize;
+}
+.shortText {
+    display: block;
+    margin: 10px 0;
+    font-size: 12px;
+}
+.readLink {
+    display: block;
+    font-size: 14px;
+}

@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    list-style: none;
+    text-decoration: none;
+    padding: 0;
+    font-family: 'Lexend', sans-serif;
+
+}
+
+.container {
+    width: 90%;
+    margin: auto;
+}
+
+.flex, .main-nav, .acct-menu {
+    display: flex;
+    width: 100%;
+}
+
+.main-nav {
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+}
+.logo {
+    margin-right: 10px;
+    font-family: 'Zen Tokyo Zoo', cursive;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+.nav-link{
+    margin: 0px 20px;
+    color: black;
+}
+.acct-menu {
+    justify-content: flex-end;
+}

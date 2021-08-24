@@ -1,0 +1,41 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+}
+
+/* Navbar */
+.navbar {
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 70px;
+    align-items: center;
+}
+.nav-menu {
+    display: flex;
+    width: 40%;
+    background-color: red;
+    justify-content: flex-end
+}
+.nav-item {
+    margin-left: 15px;
+    color: black;
+}
+.nav-link {
+
+}
+/* .flex {
+    display: flex;
+}
+.flex-col {
+    flex-direction: column;
+}
+.justify-between {
+    justify-content: space-between;
+}
+.justify-center {
+    justify-content: center;
+} */

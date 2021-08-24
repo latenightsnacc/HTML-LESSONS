@@ -9,10 +9,7 @@ body {
     overflow-x: hidden ;
     position: relative;
 }
-.container {
-    width: 90%;
-    margin: auto;
-}
+
 /* Navbar */
 .navbar {
     display: flex;

@@ -42,7 +42,7 @@ img {
 .nav-link a {
     text-decoration: none;
     color: var(--black);
-    margin: 0px 10px;
+    margin: 0px 5px;
     text-transform: capitalize;
 }
 .banner, .navbar, .services, .header {
@@ -79,16 +79,10 @@ img {
 .link, .banner-text {
     color: var(--fontColor);
 }
-.section-title {
-    text-align: center;
-}
 .grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    gap: 10px;
-}
-.grid-item {
-    margin: 15px 0px ;
+
 }
 .footer div {
     flex: 1;

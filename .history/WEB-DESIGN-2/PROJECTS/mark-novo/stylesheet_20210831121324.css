@@ -38,10 +38,7 @@ body {
     justify-content: flex-end
 }
 .nav-item {
-    margin-left: 15px; 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between; 
+    margin-left: 15px;  
 }
 .nav-link {
     color: black;
@@ -49,8 +46,7 @@ body {
     text-decoration: none;
 }
 .active {
-    width: 20px;
-    border: 1px solid black;
+    text-decoration: underline;
 }
 .mobile-menu {
     display: flex;

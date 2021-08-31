@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    font-family: 'Kaisei Decol', serif;
+}
+
+.navbar, .footer, .nav-menu {
+    display: flex;
+    flex-direction: row;
+    
+}
+.navbar {
+    justify-content: space-between;
+}
+.footer div {
+    flex: 1;
+}

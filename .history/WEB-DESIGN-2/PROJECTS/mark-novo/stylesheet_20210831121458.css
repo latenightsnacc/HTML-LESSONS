@@ -40,8 +40,7 @@ body {
 .nav-item {
     margin-left: 15px; 
     display: flex;
-    flex-direction: column;
-    justify-content: space-between; 
+    flex-direction: column; 
 }
 .nav-link {
     color: black;

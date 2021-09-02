@@ -30,7 +30,7 @@ img {
 .navbar {
     width: 100%;
     justify-content: space-between;
-    height: 100px;
+    height: 70px;
     align-items: center;
     
 }
@@ -46,20 +46,21 @@ img {
     margin: 0px 10px;
     text-transform: capitalize;
 }
-.banner, .navbar, .services, .header, .cta {
+.banner, .navbar, .services, .header {
     background-color: var(--primaryColor);
 }
 .btn {
     outline: none;
     width: auto;
-    padding: 20px 50px;
+    padding: 15px 20px;
     border: none;
     background-color: var(--fontColor);
     color: white;
     text-transform: capitalize;
-    font-size: 18px;
 }
-
+/* .mobile-icon {
+    display: flex;
+} */
 .bar {
     width: 35px;
     border: 1px solid rgb(51, 49, 49);
@@ -91,11 +92,11 @@ img {
 }
 .section-title {
     text-align: center;
-    /* padding: 30px 0px; */
+    padding: 50px 0px;
     margin: auto;
-    font-size: 30px;
+    font-size: 36px;
     line-height: 54px;
-    width: 45%;
+    width: 50%;
     font-weight: 100;
 }
 .grid {
@@ -110,11 +111,10 @@ img {
 }
 .serivce-title {
     text-align: center;
-    font-size: 22px;
+    font-size: 26px;
     line-height: 36px;
     letter-spacing: .1rem;
     text-transform: capitalize;
-    font-weight: 300;
 }
 .center {
     display: flex;
@@ -122,15 +122,9 @@ img {
     align-items: center;
     height: 150px;
 }
-.flex-center {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-
-}
 .service-info{
     text-align: center;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 26px;
     font-weight: 300;
     padding: 10px;
@@ -152,54 +146,18 @@ img {
     position: absolute;
     top: 20%;
     left: 5%;
-}
-.colored-title{
-    padding: 20px 0px;
+   
+    
 }
 .img {
     background: black;
     height: 100%;
     width: 500px;
 }
-.spacer {
-    margin: 50px 0px;
-}
-.text {
-    margin: 20px;
-    font-size: 18px;
-    text-align: center;
-}
-
-.footer-flex {
-    display: flex;
-    width: 100%;
-    justify-content: space-evenly;
-    align-items: flex-start;
-}
-.col {
+.footer div {
     flex: 1;
-    padding: 20px 0px;
-    text-align: center;
 }
-.col p {
-    margin: 10px 0px;
-    text-align: center;
-}
-.footer-logo {
-    text-align: center;
-    font-size: 36px;
-    line-height: 48px;
-    padding: 30px 0px;
-    font-weight: 300;
-    letter-spacing: .1rem;
-}
-.footer-nav-title {
-    font-size: 24px;
-    line-height: 33px;
-    font-weight: 300;
-    padding-bottom: 20px;
 
-}
 @media screen and (max-width:768px){
     #menu, #nav-btn {
         display: none;

@@ -30,7 +30,7 @@ img {
 .navbar {
     width: 100%;
     justify-content: space-between;
-    height: 100px;
+    height: 70px;
     align-items: center;
     
 }
@@ -52,12 +52,11 @@ img {
 .btn {
     outline: none;
     width: auto;
-    padding: 20px 50px;
+    padding: 25px 50px;
     border: none;
     background-color: var(--fontColor);
     color: white;
     text-transform: capitalize;
-    font-size: 18px;
 }
 
 .bar {
@@ -91,7 +90,7 @@ img {
 }
 .section-title {
     text-align: center;
-    /* padding: 30px 0px; */
+    padding: 30px 0px;
     margin: auto;
     font-size: 30px;
     line-height: 54px;
@@ -152,9 +151,8 @@ img {
     position: absolute;
     top: 20%;
     left: 5%;
-}
-.colored-title{
-    padding: 20px 0px;
+   
+    
 }
 .img {
     background: black;
@@ -164,42 +162,10 @@ img {
 .spacer {
     margin: 50px 0px;
 }
-.text {
-    margin: 20px;
-    font-size: 18px;
-    text-align: center;
-}
-
-.footer-flex {
-    display: flex;
-    width: 100%;
-    justify-content: space-evenly;
-    align-items: flex-start;
-}
-.col {
+.footer div {
     flex: 1;
-    padding: 20px 0px;
-    text-align: center;
 }
-.col p {
-    margin: 10px 0px;
-    text-align: center;
-}
-.footer-logo {
-    text-align: center;
-    font-size: 36px;
-    line-height: 48px;
-    padding: 30px 0px;
-    font-weight: 300;
-    letter-spacing: .1rem;
-}
-.footer-nav-title {
-    font-size: 24px;
-    line-height: 33px;
-    font-weight: 300;
-    padding-bottom: 20px;
 
-}
 @media screen and (max-width:768px){
     #menu, #nav-btn {
         display: none;

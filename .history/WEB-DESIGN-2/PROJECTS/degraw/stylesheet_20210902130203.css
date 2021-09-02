@@ -30,7 +30,7 @@ img {
 .navbar {
     width: 100%;
     justify-content: space-between;
-    height: 100px;
+    height: 70px;
     align-items: center;
     
 }
@@ -52,12 +52,11 @@ img {
 .btn {
     outline: none;
     width: auto;
-    padding: 20px 50px;
+    padding: 25px 50px;
     border: none;
     background-color: var(--fontColor);
     color: white;
     text-transform: capitalize;
-    font-size: 18px;
 }
 
 .bar {

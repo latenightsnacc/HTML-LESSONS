@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Positioning</title>
+    <style>
+        
+        .parent {
+            width: 80%;
+            margin: auto;
+            height: 600px;
+            border: 2px solid black;
+            position: relative;
+    
+        }
+        .box {
+            width: 100px;
+            height: 100px;
+            position: absolute;
+
+        }
+        .child1 {
+            background-color:red ; 
+            left: 0px;
+            transform: rotate(45deg);
+            -webkit-transform: rotate(45deg);   
+            -ms-transform: rotate(45deg);   
+            -moz-transform: rotate(45deg);   
+              
+        }
+        .child2 {
+            background-color:#008000 ;
+            position: absolute;
+            right: 40%;  
+            
+        }
+        .child3 {
+            background-color:blue;
+            position: absolute;
+            left: 0px;
+            bottom: 0px;
+            transform: translate3d(30px, 50px, 5px);
+        }
+        .child4 {
+            background-color:yellow ;
+            position: absolute;
+            right: 0px;
+            bottom: 0px;
+        }
+        .road {
+            width: 90%;
+            margin: auto;
+            background-color: black;
+            height: 20px;
+            border: 2px solid red;
+            position: relative;
+        }
+        .car {
+            height: 150px;
+            width: 200px;
+            background-color: steelblue;
+            position: absolute;
+            top: -150px;
+
+        }
+    </style>
+</head>
+<body>
+    <div class="road">
+        <div class="car"></div>
+    </div>
+    <div class="parent">
+        <div class="box child1"></div>
+        <div class="box child2"></div>
+        <div class="box child3"></div>
+        <div class="box child4"></div>
+    </div>
+    
+</body>
+</html>

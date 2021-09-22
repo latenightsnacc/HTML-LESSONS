@@ -1,0 +1,27 @@
+.nav {
+    position: fixed;
+    width: 100%;
+    
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    background:rgba(25, 245, 230, 0.8);
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 100vh;
+    box-shadow: 10px 10px 20px #ccc;
+    
+    
+}
+.menu {
+    display: flex;
+    list-style: none;
+}
+li {
+    margin-right: 10px;
+}
+.text {
+    margin-top:70px ;
+}

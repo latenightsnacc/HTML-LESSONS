@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Neuton', serif;
+}
+:root {
+    --secondary: #f01f1fb6;
+    --primary:#feddaf;
+
+}
+.background {
+    background-color: var(--secondary);
+}
+.card {
+    width: 90%;
+    height: 90vh;
+    margin:40px  auto;
+    background-color: var(--primary);
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0px 5%;
+    
+   
+}
+.nav {
+   border-top:2px solid black;  
+   
+   border-bottom: none !important;
+   border-right:2px solid black; 
+   border-left:2px solid black; 
+}
+.banner {
+    border:2px solid black;  
+    padding: 2%;
+    height: auto;
+    
+}
+.nav,.nav-menu,.row, .flex, .innerLogo,.nav-item {
+    display: flex;
+}
+.nav,.flex {
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    text-decoration: none;
+    color: black;
+    
+    font-weight: bold;
+    font-family: 'Rancho', cursive;
+    text-transform: capitalize;
+}
+.innerLogo {
+    align-items: center;
+    height: 70px
+}
+.one {
+    font-size: 48px;
+
+}
+.row {
+    width: 100%;
+    height: 60vh;
+}
+.col-1, .nav {
+    width: 60%;
+}
+.nav-menu {
+    width: 80%;
+    height: 70px;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.nav-item {
+    
+    width: 100%;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+}
+.nav-link {
+    text-decoration: none;
+    color: black;
+}
+.nav-link::before {
+    content: ' • ';
+}
+.nav-item:hover .nav-link{
+    color: white;
+    
+}
+.nav-item:hover{
+    background-color: black;
+}
+.borderLeft {
+    border-left: 2px solid black;
+    
+}
+h1 {
+    font-size: 4rem;
+    font-family: 'Luckiest Guy', cursive;
+    z-index: 99px;
+}
+.col-1, .col-2 {
+    position: relative;
+    height: 100%;
+}
+.circle {
+    height: 300px;
+    width: 300px;
+    background-color: var(--secondary);
+    border-radius: 50%;
+    position: absolute;
+    right: 0px;
+    top: 50px;
+    opacity: 50%;  
+}
+.smallCircle {
+    height: 150px;
+    width: 150px;
+    background-color: var(--secondary);
+    border-radius: 50%;
+}

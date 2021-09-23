@@ -194,7 +194,7 @@ h1 {
     align-items: center;
     justify-content: space-around;
     padding-bottom: 20px;
-    
+    margin-left: 10px;
     border-bottom: 2px solid black;
 }
 .double-box div {

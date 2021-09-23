@@ -109,9 +109,7 @@
 }
 /* BANNER - > ROW -> COL-1 AND COL-2 */
 .banner {
-    border-top:2px solid black; 
-    border-left:2px solid black;
-    border-bottom:2px solid black;
+    border:2px solid black;  
     height: 100%;
     flex-direction: column;
     justify-content: center;
@@ -131,23 +129,6 @@
     flex-direction: column;
     justify-content: space-around;
     padding: 2%;
-}
-/* LARGE TEXT IN COLUMN ONE */
-h1 {
-    font-size: 4rem;
-    font-family: 'Luckiest Guy', cursive;
-    z-index: 10;
-}
-
-/* ADD TO CART BUTTON IN COLUMN ONE */
-.btn {
-    background-color: black;
-    color: white;
-    padding: 20px;
-}
-/* PRICE IN ADD TO CART BUTTON */
-.price {
-    margin-right: .2rem;
 }
 /* BIG CIRCLE IN THE FIRST COLUMN */
 .circle {
@@ -189,22 +170,20 @@ h1 {
 }
 
 .double-box{
-    height: auto;
+   
+    height: 50%;
     width: 100%;
     align-items: center;
     justify-content: space-around;
-    padding-bottom: 20px;
-    
-    border-bottom: 2px solid black;
 }
 .double-box div {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px 20px;
+    padding: 10px 20px;
     text-align: left;
     font-family: 'Rancho', cursive;
-    font-size: xx-large;
+    font-size: larger;
     letter-spacing: .1rem;
 }
 .flex {
@@ -213,10 +192,24 @@ h1 {
 
 
 
-/* ADD A BORDER TO THE LEFT OF THE ELEMENT */
+
 .borderLeft {
-    border-left: 2px solid black;   
+    border-left: 2px solid black;
+    
 }
+h1 {
+    font-size: 4rem;
+    font-family: 'Luckiest Guy', cursive;
+    z-index: 10;
+    /* font-family: 'Rancho', cursive; */
+}
+.price {
+    margin-right: .2rem;
+}
+.btn {
+    background-color: black;
+    color: white;
+    padding: 20px;
 
-
+}
 

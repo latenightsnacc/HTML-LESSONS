@@ -5,9 +5,6 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="stylesheet.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Luckiest+Guy&family=Neuton:wght@200;300&family=Rancho&display=swap" rel="stylesheet">
     <title>the 1 Bakery</title>
 </head>
 <body class="background">
@@ -19,8 +16,8 @@
                 <div class="innerLogo">
                     <div class="one">1</div>
                     <div>
-                        <p class="logo-text">the</p>
-                        <p class="logo-text">Bakery</p>
+                        <p>the</p>
+                        <p>Bakery</p>
                     </div>
                 </div>
             </a>
@@ -35,7 +32,7 @@
                 <li class="nav-item">
                     <a href="#" class="nav-link">Contacts</a>
                 </li>
-                <li class="nav-item active">
+                <li class="nav-item">
                     <a href="#" class="nav-link">Basket $14</a>
                 </li>
             </ul>
@@ -46,28 +43,25 @@
             <div class="row">
                 <!--First Column-->
                 <div class="col-1">
-                    <div class="special-price">
-                        <p class="logo-text">Special price of the day</p>
+                    <div class="flex">
+                        <p>Special price of the day</p>
                         <div class="inner-control">
                             <span>Prev</span>
                             <span>Next</span>
                         </div>
                     </div>
-                    <div class="flex relative">
-                        <h1>Fresh bread <br/>just from<br/> the oven</h1>
-                        <div class="circle"></div>
+                    
+                    <h1>Fresh bread just from the oven</h1>
+                    <div class="cart-btn">
+                        <div class="price">$3</div>
+                        <div class="addToCart">Add to basket</div>
                     </div>
                     
-                    <div class="cart-btn flex">
-                        <div class="price btn">$3</div>
-                        <div class="addToCart btn">Add to basket</div>
-                    </div>
-                    
-                    
+                    <div class="circle"></div>
                     <div class="img"></div>
                 </div>
                 <!--Second Column-->
-                <div class="col-2  borderLeft">
+                <div class="col-2 borderLeft">
                     <div class="double-box">
                         <!--Box-->
                         <div>
@@ -76,10 +70,10 @@
                             <div class="pastry-title">Long baguette</div>
                         </div>
                         <!--Box-->
-                        <div class="borderLeft">
+                        <div>
                             <div class="smallCircle"></div>
                             <div class="img"></div>
-                            <div class="pastry-title">Sweet muffins</div>
+                            <div class="pastry-title">Small muffins</div>
                         </div>
                     </div>
                     
@@ -93,12 +87,11 @@
                     
                 </div>
             </div>
-            
-        </div>
-        <!--External Slider Control-->
-        <div class="flex  external-control">
-            <div >Prev</div>
-            <div class="borderLeft">Next</div>
+            <!--External Slider Control-->
+            <div class="external-control">
+                <div>Prev</div>
+                <div>Next</div>
+            </div>
         </div>
     </main>
 </body>

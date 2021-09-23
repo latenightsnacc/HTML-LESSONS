@@ -6,20 +6,6 @@
     list-style: none;
     font-family: 'Neuton', serif;
 }
-button {
-    background-color: blue;
-    border: 2px solid greenyellow;
-    border-width: 2px;
-    border-color: aqua;
-    border-style: dotted;
-}
-.red-btn {
-    background-color: red;
-}
-#white-btn {
-    color: white;
-}
-
 /* CSS VARIABLES */
 :root {
     --secondary: #f01f1fb6;

@@ -8,10 +8,6 @@
 }
 button {
     background-color: blue;
-    border: 2px solid greenyellow;
-    border-width: 2px;
-    border-color: aqua;
-    border-style: dotted;
 }
 .red-btn {
     background-color: red;
@@ -19,7 +15,6 @@ button {
 #white-btn {
     color: white;
 }
-
 /* CSS VARIABLES */
 :root {
     --secondary: #f01f1fb6;

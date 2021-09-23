@@ -141,7 +141,7 @@
 .loaf {
     position: absolute;
     right: 30px;
-    top: 100px;
+    top: 50px;
 }
 /* LARGE TEXT IN COLUMN ONE */
 h1 {
@@ -217,8 +217,8 @@ h1 {
 }
 .muffins{
     position: absolute;
-    left: 10px;
-    top: -70px;
+    right: 10px;
+    bottom: 0px;
 }
 .double-box div {
     display: flex;

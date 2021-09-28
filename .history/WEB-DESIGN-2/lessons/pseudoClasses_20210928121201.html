@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Classes</title>
+    <style>
+        .list {
+            background-color: aliceblue;
+        }
+        li {
+            padding: 10px;
+            background-color: aqua;
+            margin: 10px 0px;
+            border-radius: 10px;
+        }
+        .input {
+            padding: 10px;
+            outline: none;
+            display: block;
+        }
+        .input:focus {
+            border: 2px solid salmon;
+        }
+        .input:focus-within {
+            border: 2px solid salmon !important;
+        }
+        .checked:checked{
+            background-color: blue !important;
+        }
+    </style>
+</head>
+<body>
+    <ul class="list">
+        <li>Rice</li>
+        <li>Beans</li>
+        <li>Garri</li>
+        <li>Chicken</li>
+        <li>Fish</li>
+    </ul>
+    <form name="contact" id="contact" class="form" method="" action="form.php">
+        <input class="input" type="text" name="fname" id="fname" placeholder="Enter your first name" />
+        <input class="checked" type="checkbox" name="vegetarian" value="Vegetarian" /> 
+        <label for="vegetarian">Vegetarian</label>
+        <input class="input" type="button" value="Submit"/>
+    </form>
+</body>
+</html>

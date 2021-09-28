@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pseudo Classes</title>
+    <style>
+        .list {
+            background-color: aliceblue;
+        }
+        li {
+            padding: 10px;
+            background-color: aqua;
+            margin: 10px 0px;
+            border-radius: 10px;
+        }
+      .list li:first-child {
+          background-color: blue;
+      }
+      .list li:last-child {
+          background-color: red;
+      }
+      .list li:nth-child(4) {
+          background-color: gold;
+      }
+      .list li:nth-last-child(5) {
+          background-color: purple;
+      }
+      .list li::before {
+          content: 'Hello';
+          
+      }
+        .input {
+            padding: 10px;
+            outline: none;
+            display: block;
+        }
+        .input:focus {
+            border: 2px solid salmon;
+        }
+        .input:focus-within {
+            border: 2px solid salmon !important;
+        }
+        .checked:checked{
+            background-color: blue !important;
+        }
+        .box {
+            width: 200px;
+            height: 200px;
+            border: 2px solid blueviolet;
+            margin-bottom: 5px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: x-large;
+        }
+        .box:nth-of-type(3) {
+            background-color: yellow;
+        }
+        .box:nth-of-type(odd) {
+            background-color: bisque;
+        }
+        H1 {
+            color: black;
+        }
+        h1::first-letter {
+            color: aqua;
+            font-size: 48px;
+
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>HELLO WORLD</h1>
+    <ul class="list">
+        <li>Rice</li>
+        <li>Beans</li>
+        <li>Garri</li>
+        <li>Chicken</li>
+        <li>Fish</li>
+    </ul>
+    <div class="grid">
+        <div class="box">1</div>
+        <div class="box">2</div>
+        <div class="box">3</div>
+        <div class="box">4</div>
+    </div>
+    <form name="contact" id="contact" class="form" method="" action="form.php">
+        <input class="input" type="text" name="fname" id="fname" placeholder="Enter your first name" />
+        <input class="checked" type="checkbox" name="vegetarian" value="Vegetarian" /> 
+        <label for="vegetarian">Vegetarian</label>
+        <input class="input" type="button" value="Submit"/>
+    </form>
+</body>
+</html>

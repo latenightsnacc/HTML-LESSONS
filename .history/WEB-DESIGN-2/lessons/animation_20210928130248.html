@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ANIMATION</title>
+    <style>
+        .logo {
+            width: 600px;
+            height: 600px;
+            margin: auto;
+            background-color: beige;
+            position: relative;
+        }
+        .window {
+            height: 200px;
+            width: 250px;
+            position: absolute;
+        }
+        .red {
+            background-color: red;
+            top: 0;
+            left: 0;
+            animation: redWindows 5s  ease-in 1s 1 normal forwards;
+
+        }
+        .blue {
+            background-color: blue;
+            bottom: 0;
+            left: 0;
+            animation: blueWindows 5s  ease-out 1s 1 normal forwards;
+        }
+        .yellow {
+            background-color: yellow;
+            bottom: 0;
+            right: 0;
+            animation: yellowWindows 5s  ease-in-out 1s 1 normal forwards;
+        }
+        .green {
+            background-color: green;
+            top: 0;
+            right: 0;
+            animation: greenWindows 5s  ease 1s 1 normal forwards;
+
+        }
+        @keyframes redWindows {
+            0% {
+                top: 0;
+                left: 0;
+            }
+            100% {
+                top: 150px;
+                left: 50px;
+            }
+        }
+        @keyframes greenWindows {
+            0% {
+                top: 0;
+                right: 0;
+            }
+            100% {
+                top: 150px;
+                right: 50px;
+            }
+        }
+        @keyframes blueWindows {
+            0% {
+                bottom: 0;
+                left: 0;
+            }
+            100% {
+                bottom: 150px;
+                left: 50px;
+            }
+        }
+        @keyframes yellowWindows {
+            0% {
+                bottom: 0;
+                right: 0;
+            }
+            100% {
+                bottom: 150px;
+                right: 50px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="logo">
+        <div class="window red"></div>
+        <div class="window green"></div>
+        <div class="window yellow"></div>
+        <div class="window blue"></div>
+        
+    </div>
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .nav, .menu {
+            display: flex;
+        }
+        .nav {
+            background-color: red;
+            height: 100px;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+        .menu {
+            background-color: aqua;
+            width: 60%;
+            justify-content: space-between;
+        }
+        .menu li {
+            margin-left: 5px;
+            margin-right: 5px;
+        }
+        .logo {
+            background-color: aliceblue;
+            width: 20%;
+        }
+        .row {
+            display: flex;
+            width: 100%;
+            height: 600px;
+            background-color: antiquewhite;
+        }
+        .col {
+            background-color: aqua;
+            width: 50%;
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <nav class="nav">
+        <!--Logo-->
+        <a href="#" class="logo">
+            LOGO
+        </a>
+        <!--Menu-->
+        <ul class="menu">
+            <li>
+                <a href="#">Home</a>
+            </li>
+            <li>
+                <a href="#">About</a>
+            </li>
+            <li>
+                <a href="#">Contact us</a>
+            </li>
+        </ul>
+        <!--CTA BTN-->
+        <button class="btn">Call me</button>
+    </nav>
+    <div class="row">
+        <div class="col"></div>
+        <div class="col"></div>
+    </div>
+</body>
+</html>

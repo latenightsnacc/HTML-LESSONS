@@ -1,0 +1,21 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: #fffc52;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.row {
+    display: flex;
+}
+.col {
+    width: 50%;
+}

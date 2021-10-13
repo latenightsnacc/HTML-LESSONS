@@ -113,12 +113,10 @@ section {
     margin-right: 40px;
     
 }
-/* This styles the element giving it a black background-color */
 .bg-black {
     background-color: black;
 }
-/* This styles the element flex column-wise and centers the content on the horizontal and vertical axis */
-.flex {
+div.flex {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -133,13 +131,6 @@ section {
     height: 2px;
     width: 570px;
     background-color: #fffc52;
-}
-.footer-flex {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 400px;
-    flex-direction: column;
 }
 .footer-menu {
     display: flex;

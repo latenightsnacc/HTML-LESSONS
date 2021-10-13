@@ -4,14 +4,12 @@
     box-sizing: border-box;
     text-decoration: none;
     list-style: none;
-    font-family: 'Source Sans Pro', sans-serif;
 }
 
 body {
     background-color: #fffc52;
     display: flex;
     flex-direction: column;
-    font-family: 'Source Sans Pro', sans-serif;
 
 }
 /* This is a class that styles the width and margin of the layout for the element */
@@ -37,10 +35,7 @@ body {
     height: 70px;
     
 }
-/* This styles all the section elements giving them a margin top and bottom 15% each */
-section {
-    margin: 15% 0px;
-}
+
 /* This is to style the logo */
 .logo {
     font-size: 32px;
@@ -74,7 +69,6 @@ section {
     width: 50%;
     justify-content: space-between;
 }
-
 /* This styles the banner giving it a margin top and bottom of 70px each */
 .banner-box {
     margin: 70px 0px;
@@ -113,11 +107,9 @@ section {
     margin-right: 40px;
     
 }
-/* This styles the element giving it a black background-color */
 .bg-black {
     background-color: black;
 }
-/* This styles the element flex column-wise and centers the content on the horizontal and vertical axis */
 .flex {
     display: flex;
     justify-content: center;
@@ -134,13 +126,6 @@ section {
     width: 570px;
     background-color: #fffc52;
 }
-.footer-flex {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 400px;
-    flex-direction: column;
-}
 .footer-menu {
     display: flex;
 }
@@ -154,8 +139,4 @@ section {
     text-decoration: underline;
     color: black;
     text-transform: capitalize;
-}
-.copy-text {
-    color: black;
-    font-weight: 700;
 }

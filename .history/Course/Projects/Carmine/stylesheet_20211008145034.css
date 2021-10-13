@@ -1,0 +1,77 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: #fffc52;
+    display: flex;
+    flex-direction: column;
+
+}
+/* This is a class that styles the width and margin of the layout for the element */
+.container {
+    width: 90%;
+    margin: auto;
+}
+/* Creates a row */
+.row {
+    display: flex;
+}
+/* Creates a column that takes 50% of the parent element */
+.col {
+    flex: 50%;
+}
+
+/* This is to style the navigation bar */
+.navbar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    
+}
+
+/* This is to style the logo */
+.logo {
+    font-size: 32px;
+    line-height: 45px;
+    color: black;
+    font-weight: 700;
+
+}
+/* This is to style the nav-menu */
+.nav-menu, .social-menu {
+    display: flex;
+    width: 50%;
+    justify-content: end;
+}
+
+/* This is to style the nav-menu li items  */
+.menu-item {
+    margin-left:20px ;
+}
+/* This is to style the nav-menu links inside the li item  */
+.menu-link {
+    color: black;
+    font-size: 18px;
+    line-height: 32px;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+/* This is to style the div menu-box that contains both the nav-menu and the social menu  */
+.menu-box{
+    display: flex;
+    width: 50%;
+    justify-content: space-between;
+}
+
+.large-text {
+    font-size: 106px;
+    line-height: 116px;
+}
+

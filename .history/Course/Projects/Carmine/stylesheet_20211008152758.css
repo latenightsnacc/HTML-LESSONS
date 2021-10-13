@@ -113,11 +113,9 @@ section {
     margin-right: 40px;
     
 }
-/* This styles the element giving it a black background-color */
 .bg-black {
     background-color: black;
 }
-/* This styles the element flex column-wise and centers the content on the horizontal and vertical axis */
 .flex {
     display: flex;
     justify-content: center;

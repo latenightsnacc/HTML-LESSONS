@@ -1,0 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    background-color: #fffc52;
+    display: flex;
+    flex-direction: column;
+
+}
+
+.navbar {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 70px;
+    background-color: antiquewhite;
+}
+.nav-menu {
+    display: flex;
+    background-color: aqua;
+}
+.menu-box{
+    display: flex;
+    background-color: white;
+    width: 50%;
+}
+.social-menu {
+    display: flex;
+}
+/* Creates a row */
+.row {
+    display: flex;
+}
+/* Creates a column that takes 50% of the parent element */
+.col {
+    flex: 50%;
+}

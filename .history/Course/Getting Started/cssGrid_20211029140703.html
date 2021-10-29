@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Grid</title>
+    <style>
+        .grid {
+            background-color: black;
+            display: grid;
+            display: -moz-grid;
+            display: -ms-grid;
+            margin: auto;
+            width: 100%;
+            min-height: 100vh;
+            grid-template-columns: repeat(4,1fr);
+            grid-template-rows: auto;
+            gap: 10px 20px;
+            
+        }
+        .grid-item {
+            height: 200px;
+            width: 200px;
+            background-color: blue;
+            font-size: 36px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+        .one {
+            grid-row-start: 3; 
+            grid-column-start: 4;
+        }
+        .grid-container {
+            display: grid;
+            height: 100vh;
+            grid-template-columns: repeat(5,1fr);
+            grid-template-rows: repeat(5,1fr);
+            grid-template-areas: 
+            'myheader myheader myheader myheader myheader' 
+            'leftarticle maindiv maindiv maindiv rightarticle' 
+            'footer footer footer footer footer';
+        }
+        #header {
+            background-color: aqua;
+            grid-area: myheader;
+            height: 10vh;
+        }
+        #left-article {
+            background-color: rgb(68, 112, 112);
+            grid-area: leftarticle;
+            height: 3fr;
+        }
+        #main-content {
+            background-color: red;
+            grid-area: maindiv;
+            height: 80vh;
+        }
+        #right-article {
+            background-color: purple;
+            grid-area: rightarticle;
+            height: 3fr;
+        }
+        #footer {
+            background-color: rgb(199, 198, 181);
+            grid-area: footer;
+            height: 1fr;
+        }
+        
+    </style>
+</head>
+<body>
+    <main class="grid-container">
+        <header id="header">HEADER</header>
+        <article id="left-article">ARTICLE</article>
+        <div id="main-content">MAIN CONTENT</div>
+        <article id="right-article">SIDE CONTENT</article>
+        <footer id="footer">FOOTER</footer>
+    </main>
+    <!--CSS GRID LAYOUT-->
+    <!-- <div class="grid">
+        <div class="grid-item one">1</div>
+        <div class="grid-item two">2</div>
+        <div class="grid-item three">3</div>
+        <div class="grid-item four">4</div>
+        <div class="grid-item">5</div>
+        <div class="grid-item">6</div>
+        <div class="grid-item">7</div>
+        <div class="grid-item">8</div>
+        <div class="grid-item">9</div>
+        <div class="grid-item">10</div>
+        <div class="grid-item">11</div>
+        <div class="grid-item">12</div>
+        <div class="grid-item">13</div>
+        <div class="grid-item">14</div>
+        <div class="grid-item">15</div>
+        <div class="grid-item">16</div>
+    </div> -->
+</body>
+</html>

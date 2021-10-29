@@ -1,20 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
 
-@media screen and (min-width:320px){
-    .banner {
-        flex-direction: column;
-    }
-    .text, .img {
-        width: 100%;
-    }
-}
-@media screen and (min-width:768px){
-    .banner {
-        flex-direction: row;
-    }
-    .text, .img {
-        width: 50%;
-    }
+@media screen and (min-width:325px){
+    
 }
 * {
     margin: 0;

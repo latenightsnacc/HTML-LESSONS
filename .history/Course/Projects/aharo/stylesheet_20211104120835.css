@@ -63,7 +63,6 @@ body {
 }
 .m-menu {
     color: var(--red2);
-    font-size: 28px;
 }
 .hidden {
     display: none;
@@ -72,7 +71,7 @@ body {
     text-decoration: none;
     color: var(--black);
     font-family: 700;
-    font-size: 36px;
+    font-size: larger;
 }
 
 .banner {
@@ -92,8 +91,8 @@ body {
     font-size: 56px;
 }
 h1 {
-    font-size: 48px;
-    line-height: 72px;
+    font-size: 36px;
+    line-height: 54px;
     text-transform: uppercase;
     padding: 15px 0px;
     color: var(--black);
@@ -140,19 +139,12 @@ p {
     text-transform: capitalize;
 }
 
-@media screen and (max-width:1024px){
+@media screen and (max-width){
     .border {
         width: 60%;
     }
-    .social-links {
-        width: 40%;
-    }
-    h1 {
-        font-size: 36px;
-        line-height: 54px;
-    }
 }
-@media screen and (max-width:960px){
+@media screen and (max-width:768px){
     .hidden {
         display: inline;
     }
@@ -163,7 +155,6 @@ p {
         font-size: 28px;
         line-height: 42px;
     }
-    
     .border {
         width: 50%;
     }

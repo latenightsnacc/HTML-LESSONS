@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    list-style: none;
+}
+body {
+    overflow-x: hidden;
+}
+.container {
+    width: 90%;
+    margin: auto;
+    padding: 1.5%;
+}
+.navbar {
+    display: flex;
+    width: 100;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo {
+    text-transform: capitalize;
+    font-size: larger;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

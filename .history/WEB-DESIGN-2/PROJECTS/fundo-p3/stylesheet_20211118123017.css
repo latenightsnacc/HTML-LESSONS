@@ -1,0 +1,55 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    overflow-x: hidden;
+}
+.container {
+    width: 90%;
+    margin: auto;
+    padding: 1.5%;
+}
+.blue-bg {
+    background-color: blue;
+    width: 100vw;
+}
+.navbar {
+    display: flex;
+    width: 100;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo {
+    text-transform: capitalize;
+    font-size: xx-large;
+    color: white;
+    font-weight: 700;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+ /* GALLERY CSS PROPERTIES */
+ .gallery img  {
+    width: 100%;
+ }
+.active {
+    width: 80%;
+    margin: auto;
+}
+.featured {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.img-box {
+    width: 100%;
+}

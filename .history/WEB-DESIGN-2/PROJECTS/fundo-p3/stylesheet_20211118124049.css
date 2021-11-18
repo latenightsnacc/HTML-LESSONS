@@ -1,0 +1,64 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body {
+    overflow-x: hidden;
+}
+.container {
+    width: 90%;
+    margin: auto;
+    padding: 1.5%;
+}
+.blue-bg {
+    background-color: #6e85ad;
+    width: 100vw;
+    height: 300px;
+    position: relative;
+}
+.banner-img {
+    position: absolute;
+    right: 0;
+    top: 40px;
+}
+.navbar {
+    display: flex;
+    width: 100;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.logo {
+    text-transform: capitalize;
+    font-size: xx-large;
+    color: white;
+    font-weight: 700;
+}
+.menu {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+ /* GALLERY CSS PROPERTIES */
+ .gallery img  {
+    width: 100%;
+ }
+.active {
+    width: 80%;
+    margin: auto;
+}
+.featured {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+}
+.img-box {
+    width: 100%;
+}

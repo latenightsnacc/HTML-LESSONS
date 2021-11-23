@@ -85,11 +85,6 @@ body {
     color: var(--black);
     font-weight: lighter;
 }
-.menu li a:hover {
-    color: var(--red2);
-    font-weight: 400;
-    background-color: #0f0c0a;
-}
 .menu li a:visited {
     color: purple;
     font-weight: 700;

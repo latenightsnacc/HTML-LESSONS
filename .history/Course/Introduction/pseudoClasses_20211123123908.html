@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 500px;
+            background-color: #ccc;
+
+        }
+        .input-box {
+            margin: 5px 0px;
+            width: 100%;
+        }
+        .btn {
+            width: 100%;
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <form class="form">
+        <div class="input-box">
+            <label for="full-name">Full Name</label>
+            <input 
+        type="text"
+        name="full-name"
+        value="" 
+        placeholder="Enter your name"
+        required />
+        </div>
+        <div class="input-box">
+            <label for="email">Email</label>
+            <input 
+        type="email"
+        name="email"
+        value="" 
+        placeholder="Enter your email"
+        required />
+        </div>
+        <div class="input-box">
+            <label for="datetime">Appointment Date</label>
+            <input 
+        type="datetime-local"
+        name="datetime"
+        value="" 
+        required />
+        </div>
+        <div class="input-box">
+            <label for="color">Event Color</label>
+            <input 
+        type="color"
+        name="color"
+        
+        required />
+        </div>
+        <div class="input-box">
+            <label for="rice">Rice</label>
+            <input 
+        type="checkbox"
+        name="rice"
+        value="rice" 
+        placeholder="Enter your email"
+        required />
+        <label for="beans">beans</label>
+            <input 
+        type="checkbox"
+        name="beans"
+        value="beans" 
+        placeholder="Enter your email"
+        required />
+        <label for="swallow">Swallow</label>
+            <input 
+        type="checkbox"
+        name="swallow"
+        value="swallow" 
+        placeholder="Enter your email"
+        required />
+        </div>
+        <div class="input-box">
+            <label for="rice">Rice</label>
+            <input 
+        type="radio"
+        name="rice"
+        value="rice" 
+        placeholder="Enter your email"
+        required />
+        <label for="beans">beans</label>
+            <input 
+        type="radio"
+        name="beans"
+        value="beans" 
+        placeholder="Enter your email"
+        required />
+        <label for="swallow">Swallow</label>
+            <input 
+        type="radio"
+        name="swallow"
+        value="swallow" 
+        placeholder="Enter your email"
+        required />
+        </div>
+        <div>
+            <input class="btn"
+        type="submit"
+        value="Submit" 
+         />
+        </div>
+        
+    </form>
+</body>
+</html>

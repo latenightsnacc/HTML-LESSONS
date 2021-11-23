@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML W3SCHOOLS</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: content-box;
+        }
+        .relative-box{
+            background-color: #ccc;
+            width: 100%;
+           
+            overflow-x: hidden;
+        }
+        .top-nav{
+            width: 100%;
+            height: 70px;
+            background-color: blue;
+            color: white;
+        }
+        .sticky-nav{
+            width: 100%;
+            height: 50px;
+            background-color: rebeccapurple;
+            color: white;
+            position: sticky;
+            position: -webkit-sticky;
+            top: 0;
+        }
+        .fixed-menu{
+            width: 300px;
+            margin: 0;
+            height: 100%;
+            position: fixed;
+            top: 120px;
+            left: 0;
+            display: block;
+        }
+        .scrolling-content{
+            margin-left: 300px;
+            margin-right: 250px;
+        }
+        .box {
+            height: 400px;
+            width: 100%;
+            background-color: chocolate;
+            color: white;
+            margin: 10px auto;
+        }
+        .fixed-ads{
+            position: fixed;
+            width: 250px;
+            right: 0;
+            height: auto;
+        }
+        .ad{
+            width: 220px;
+            height: 300px;
+            background-color: aqua;
+            color: white;
+            margin: 10px 0px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="top-nav">TOP NAV</div>
+        <nav class="sticky-nav">STICKY NAV</nav>
+    </header>
+    <main class="relative-box">
+        <div class="fixed-menu">FIXED MENU</div>
+        <div class="scrolling-content">
+            <div class="box">CONTENT BOX</div>
+            <div class="box">CONTENT BOX</div>
+            <div class="box">CONTENT BOX</div>
+            <div class="box">CONTENT BOX</div>
+            <div class="box">CONTENT BOX</div>
+        </div>
+        <div class="fixed-ads">
+            <div class="ad">AD</div>
+            <div class="ad">AD</div>
+            <div class="ad">AD</div>
+            <div class="ad">AD</div>
+            <div class="ad">AD</div>
+        </div>
+    </main>
+    
+</body>
+</html>

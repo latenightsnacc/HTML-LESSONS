@@ -1,0 +1,31 @@
+:root {
+    --bg: #e0d9d9;
+    --contentBg: #ebe6e6;
+    --active: #d41b27;
+    --white: white;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bg {
+    background-color: var(--bg);
+    padding: 5% 0;
+}
+.content {
+    background-color: var(--contentBg);
+    width: 90%;
+    margin: auto;
+    padding: 2%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 20px;
+}
+
+.nav {
+    display: flex;
+}

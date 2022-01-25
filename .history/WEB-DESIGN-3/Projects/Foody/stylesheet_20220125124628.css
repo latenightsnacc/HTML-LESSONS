@@ -1,0 +1,135 @@
+:root {
+    --bg: #e0d9d9;
+    --contentBg: #ebe6e6;
+    --active: #d41b27;
+    --white: white;
+    --black: rgb(41, 41, 41);
+    --btn: #f2f2f2;
+    --gold: rgb(235, 202, 17);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body {
+    overflow-x: hidden;
+}
+
+.bg {
+    background-color: var(--bg);
+    padding: 5% 0;
+}
+.content {
+    background-color: var(--contentBg);
+    width: 90%;
+    margin: auto;
+    padding: 2%;
+    border-width: 2px;
+    border-style: solid;
+    border-color: white;
+    border-radius: 20px;
+}
+
+.nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+.account {
+    display: flex;
+    align-items: center;
+}
+.logo {
+    font-size: 44px;
+    color: var(--black);
+}
+.logo span {
+    color: var(--active);
+}
+.menu-item {
+    margin: 0 10px;
+    font-size: 1rem;
+    color: var(--black);
+    font-weight: 600;
+}
+.menu-item.active {
+    color: var(--active);
+}
+.cart {
+    margin-right: 10px;
+    color: var(--black);
+}
+.btn {
+    outline: none;
+    border: 0;
+    background-color: var(--btn);
+    color: var(--black);
+    padding: 15px 30px;
+    border-radius: 20px;
+}
+.btn.active {
+    background-color: var(--active);
+    color: var(--white);
+}
+.banner {
+    display: flex;
+    align-items: center;
+}
+.banner-text, .banner-image {
+    width: 50%;
+}
+.banner-image .img {
+    width: 80%;
+}
+.img img {
+    width: 100%;
+}
+.text {
+    font-size: 36px;
+    line-height: 44px;
+}
+.btns {
+    margin: 20px 0px;
+}
+.review-title {
+    
+    color: var(--black);
+    font-weight: 500;
+}
+.avatars {
+    display: flex;
+    margin: 10px 0px;
+}
+.avatar {
+    width: 44px;
+    height: 44px;
+    background-color: blue;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: ;
+}
+.avatar img {
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.stars {
+    color: var(--gold);
+}
+.shop-section {
+    display: flex;
+}
+.meal {
+    width: 20%;
+}
+.meal-header {
+    width: 150px;
+}
+.meal-header img {
+    width: 100%;
+}

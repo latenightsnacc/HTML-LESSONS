@@ -1,0 +1,11 @@
+:root {
+    --bg: #e0d9d9;
+    --contentBg: #ebe6e6;
+    --active: #d41b27;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}

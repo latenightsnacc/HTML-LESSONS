@@ -73,7 +73,7 @@ body {
     background-color: var(--btn);
     color: var(--black);
     padding: 15px 30px;
-    border-radius: 20px;
+    border-radius: 10px;
 }
 .btn.active {
     background-color: var(--active);
@@ -87,9 +87,7 @@ body {
     width: 50%;
 }
 .banner-image .img {
-    display: block;
     width: 80%;
-    
 }
 .img img {
     width: 100%;
@@ -97,18 +95,19 @@ body {
 .text {
     font-size: 36px;
     line-height: 44px;
-
+    margin-top: 5%;
 }
 .btns {
-    margin: 20px 0;
+    margin: 20px 0px;
 }
 .review-title {
+    
     color: var(--black);
     font-weight: 500;
 }
 .avatars {
     display: flex;
-    margin: 10px 0;
+    margin: 10px 0px;
 }
 .avatar {
     width: 44px;
@@ -119,7 +118,7 @@ body {
     align-items: center;
     justify-content: center;
     color: var(--white);
-    margin: 0 -5px ;
+    margin: 0 -7px ;
     border: 2px solid var(--white);
 }
 .avatar img {

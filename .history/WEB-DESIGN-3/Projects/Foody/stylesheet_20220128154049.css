@@ -108,7 +108,7 @@ body {
 }
 .avatars {
     display: flex;
-    margin: 10px 0;
+    margin: 10px 0px;
 }
 .avatar {
     width: 44px;
@@ -119,7 +119,7 @@ body {
     align-items: center;
     justify-content: center;
     color: var(--white);
-    margin: 0 -5px ;
+    margin: 0 -7px ;
     border: 2px solid var(--white);
 }
 .avatar img {

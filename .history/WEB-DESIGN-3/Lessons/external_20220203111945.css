@@ -1,0 +1,28 @@
+h1 {
+    color: yellow;
+}
+
+h1 {
+    color: green;
+}
+h1 {
+    color: red;
+}
+
+div {
+    width: 600px;
+    height: 200px;
+    background-color: aqua;
+}
+    
+.bg-black {
+    background-color: black;
+
+}
+.row {
+    display: flex;
+}
+
+.row div {
+    width: 33.3;
+}

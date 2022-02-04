@@ -1,0 +1,28 @@
+body {
+    overflow-x: hidden;
+}
+    
+.bg-black {
+    background-color: black;
+
+}
+.row {
+    display: flex;
+    width: 100vw;
+}
+
+.row div {
+    width: 33.3%;
+    background-color: yellowgreen;
+    margin-left: 20px;
+    margin: 20px;
+
+}
+.row div  span {
+    color: g;
+}
+
+#banner {
+    background: red;
+    direction: rtl;
+}

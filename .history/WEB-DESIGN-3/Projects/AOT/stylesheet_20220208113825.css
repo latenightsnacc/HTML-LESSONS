@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root {
+    --light: #edf0f7;
+    --blue:#0507d4;
+    --greenish: #57bfce;
+    --gray: #abb8cf;
+}
+.row {
+    display: flex;
+}
+.col {
+    width: 50%;
+    height: 100vh;
+}
+.blue-bg {
+    background-color: --;
+}

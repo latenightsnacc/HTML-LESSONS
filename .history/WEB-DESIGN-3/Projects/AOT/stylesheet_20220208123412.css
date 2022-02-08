@@ -56,13 +56,12 @@ h1 {
     text-align: left;
     display: block;
     margin-top: 25px;
-    margin-left: 18%;
+    margin-left: 20%;
 }
 .author-block {
     display: flex;
     align-items: center;
     margin-top: 25px;
-    margin-left: 18%;
 }
 .details {
     display: flex;
